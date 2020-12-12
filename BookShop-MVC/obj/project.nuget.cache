@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nAHG83QwYSXYzKjDwuglSIVgAqD4ipr0dMcj1i75/E8nZxd5LeGCd66mmbJQ7W7BieQJIupQswmACt+IZFmjqQ==",
+  "dgSpecHash": "XXpf6pHupQsaSgYl//AmtqYw1BxHg070yfsEnuqbmQ4K9/R4u78OzhWJeFp5/jMzxaCa5Jw26pfpOrIMp9tcnA==",
   "success": true,
   "projectFilePath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/BookShop-MVC.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,15 @@
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/3.1.9/microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.9.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/3.1.9/microsoft.aspnetcore.identity.entityframeworkcore.3.1.9.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.identity.ui/3.1.9/microsoft.aspnetcore.identity.ui.3.1.9.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/3.1.10/microsoft.aspnetcore.mvc.razor.extensions.3.1.10.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/3.1.10/microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.10.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.razor.language/3.1.10/microsoft.aspnetcore.razor.language.3.1.10.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.codeanalysis.analyzers/2.9.3/microsoft.codeanalysis.analyzers.2.9.3.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.codeanalysis.common/3.3.0/microsoft.codeanalysis.common.3.3.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.codeanalysis.csharp/3.3.0/microsoft.codeanalysis.csharp.3.3.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.codeanalysis.razor/3.1.10/microsoft.codeanalysis.razor.3.1.10.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.data.sqlite.core/3.1.9/microsoft.data.sqlite.core.3.1.9.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
@@ -38,6 +45,7 @@
     "/Users/minhtri/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.9/microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.extensions.options/3.1.9/microsoft.extensions.options.3.1.9.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.extensions.primitives/3.1.9/microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.2/sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/sqlitepclraw.core/2.0.2/sqlitepclraw.core.2.0.2.nupkg.sha512",
@@ -47,7 +55,11 @@
     "/Users/minhtri/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/minhtri/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512"
+    "/Users/minhtri/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/system.threading.tasks.extensions/4.5.3/system.threading.tasks.extensions.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

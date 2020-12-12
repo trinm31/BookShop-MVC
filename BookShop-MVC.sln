@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop-MVC", "BookShop-MVC\BookShop-MVC.csproj", "{FECC356F-1C90-4036-B90E-B10D1C90933E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop-MVC.DataAccess", "BookShop-MVC.DataAccess\BookShop-MVC.DataAccess.csproj", "{885E2321-D0EE-4E96-A07E-BC9D45155D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop-MVC.Models", "BookShop-MVC.Models\BookShop-MVC.Models.csproj", "{8DB3FE79-008F-4DDE-AD55-95305335D7A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop-MVC.Utility", "BookShop-MVC.Utility\BookShop-MVC.Utility.csproj", "{B82AEBF7-CD25-45AD-857C-94B1C0CA4D60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{FECC356F-1C90-4036-B90E-B10D1C90933E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FECC356F-1C90-4036-B90E-B10D1C90933E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FECC356F-1C90-4036-B90E-B10D1C90933E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885E2321-D0EE-4E96-A07E-BC9D45155D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885E2321-D0EE-4E96-A07E-BC9D45155D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885E2321-D0EE-4E96-A07E-BC9D45155D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885E2321-D0EE-4E96-A07E-BC9D45155D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB3FE79-008F-4DDE-AD55-95305335D7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB3FE79-008F-4DDE-AD55-95305335D7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB3FE79-008F-4DDE-AD55-95305335D7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB3FE79-008F-4DDE-AD55-95305335D7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82AEBF7-CD25-45AD-857C-94B1C0CA4D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82AEBF7-CD25-45AD-857C-94B1C0CA4D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82AEBF7-CD25-45AD-857C-94B1C0CA4D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82AEBF7-CD25-45AD-857C-94B1C0CA4D60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
