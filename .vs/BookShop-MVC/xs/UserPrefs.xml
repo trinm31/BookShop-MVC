@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{FECC356F-1C90-4036-B90E-B10D1C90933E}|Default">
+  <MonoDevelop.Ide.ItemProperties.BookShop-MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookShop-MVC/appsettings.json">
+    <Files>
+      <File FileName="BookShop-MVC/appsettings.json" Line="11" Column="5" />
+      <File FileName="BookShop-MVC.DataAccess/Data/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="BookShop-MVC.Models/ViewModels/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="BookShop-MVC.Utility/SD.cs" Line="1" Column="1" />
+      <File FileName="BookShop-MVC/BookShop-MVC.csproj" Line="25" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookShop-MVC" expanded="True">
+            <Node name="BookShop-MVC" expanded="True">
+              <Node name="appsettings.json" expanded="True" selected="True" />
+            </Node>
+            <Node name="BookShop-MVC.DataAccess" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Data" expanded="True" />
+            </Node>
+            <Node name="BookShop-MVC.Models" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+            <Node name="BookShop-MVC.Utility" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

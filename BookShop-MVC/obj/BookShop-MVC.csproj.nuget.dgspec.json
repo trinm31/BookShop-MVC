@@ -43,7 +43,15 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.9, )"
             },
@@ -246,10 +254,6 @@
             "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
               "version": "[2.0.0-preview1-final, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[3.1.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
