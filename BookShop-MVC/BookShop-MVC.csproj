@@ -19,4 +19,14 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BookShop-MVC.DataAccess\BookShop-MVC.DataAccess.csproj" />
+      <ProjectReference Include="..\BookShop-MVC.Models\BookShop-MVC.Models.csproj" />
+      <ProjectReference Include="..\BookShop-MVC.Utility\BookShop-MVC.Utility.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Areas\Admin\Controllers" />
+    </ItemGroup>
+
 </Project>

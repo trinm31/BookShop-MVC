@@ -14,7 +14,14 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Models/BookShop-MVC.Models.csproj": {
+            "projectPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Models/BookShop-MVC.Models.csproj"
+          },
+          "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj": {
+            "projectPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -25,6 +32,12 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.1.9, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",

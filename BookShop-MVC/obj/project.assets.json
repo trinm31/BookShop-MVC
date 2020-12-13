@@ -816,6 +816,41 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "BookShop-MVC.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BookShop-MVC.Models": "1.0.0",
+          "BookShop-MVC.Utility": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.9"
+        },
+        "compile": {
+          "bin/placeholder/BookShop-MVC.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop-MVC.DataAccess.dll": {}
+        }
+      },
+      "BookShop-MVC.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BookShop-MVC.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop-MVC.Models.dll": {}
+        }
+      },
+      "BookShop-MVC.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BookShop-MVC.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop-MVC.Utility.dll": {}
+        }
       }
     }
   },
@@ -2098,10 +2133,28 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BookShop-MVC.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BookShop-MVC.DataAccess/BookShop-MVC.DataAccess.csproj",
+      "msbuildProject": "../BookShop-MVC.DataAccess/BookShop-MVC.DataAccess.csproj"
+    },
+    "BookShop-MVC.Models/1.0.0": {
+      "type": "project",
+      "path": "../BookShop-MVC.Models/BookShop-MVC.Models.csproj",
+      "msbuildProject": "../BookShop-MVC.Models/BookShop-MVC.Models.csproj"
+    },
+    "BookShop-MVC.Utility/1.0.0": {
+      "type": "project",
+      "path": "../BookShop-MVC.Utility/BookShop-MVC.Utility.csproj",
+      "msbuildProject": "../BookShop-MVC.Utility/BookShop-MVC.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BookShop-MVC.DataAccess >= 1.0.0",
+      "BookShop-MVC.Models >= 1.0.0",
+      "BookShop-MVC.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.9",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.9",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.9",
@@ -2133,7 +2186,17 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/BookShop-MVC.DataAccess.csproj": {
+              "projectPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/BookShop-MVC.DataAccess.csproj"
+            },
+            "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Models/BookShop-MVC.Models.csproj": {
+              "projectPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Models/BookShop-MVC.Models.csproj"
+            },
+            "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj": {
+              "projectPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

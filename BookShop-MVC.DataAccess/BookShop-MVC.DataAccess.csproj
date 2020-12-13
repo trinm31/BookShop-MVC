@@ -5,4 +5,17 @@
         <RootNamespace>ClassLibrary1</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Data\Migrations" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.9" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BookShop-MVC.Models\BookShop-MVC.Models.csproj" />
+      <ProjectReference Include="..\BookShop-MVC.Utility\BookShop-MVC.Utility.csproj" />
+    </ItemGroup>
+
 </Project>
