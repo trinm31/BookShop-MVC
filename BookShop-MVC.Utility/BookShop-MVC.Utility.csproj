@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>fdsaf</RootNamespace>
+        <RootNamespace>BookShop-MVC.Utility</RootNamespace>
     </PropertyGroup>
 
 </Project>

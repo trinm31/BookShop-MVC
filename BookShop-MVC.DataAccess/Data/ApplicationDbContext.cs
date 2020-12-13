@@ -12,5 +12,6 @@ namespace BookShop_MVC.DataAccess.Data
             : base(options)
         {
         }
+        
     }
 }

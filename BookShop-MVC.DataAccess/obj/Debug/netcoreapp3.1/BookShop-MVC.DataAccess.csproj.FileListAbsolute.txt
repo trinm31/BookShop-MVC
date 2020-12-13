@@ -12,3 +12,6 @@
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/obj/Debug/netcoreapp3.1/BookShop-MVC.DataAccess.csproj.CopyComplete
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/obj/Debug/netcoreapp3.1/BookShop-MVC.DataAccess.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/obj/Debug/netcoreapp3.1/BookShop-MVC.DataAccess.pdb
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/bin/Debug/netcoreapp3.1/BookShop-MVC.DataAccess.runtimeconfig.json
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/bin/Debug/netcoreapp3.1/BookShop-MVC.DataAccess.runtimeconfig.dev.json
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/obj/Debug/netcoreapp3.1/BookShop-MVC.DataAccess.genruntimeconfig.cache
