@@ -17,12 +17,13 @@ namespace BookShop_MVC.DataAccess.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+            
         }
-        public const string ConnectStrring  =  @"Data Source=localhost,1433;Initial Catalog=BookShopMVC;User ID=SA;Password=Password789";
+        public string ConnectString  =  @"Data Source=localhost,1433;Initial Catalog=BookShopMVC;User ID=SA;Password=Password789";
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(ConnectStrring);
+            optionsBuilder.UseSqlServer(ConnectString);
         }
 
         public DbSet<Category> Categories { get; set; }

@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 using BookShop_MVC.DataAccess.Data;
+using BookShop_MVC.DataAccess.Repository;
+using BookShop_MVC.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -18,6 +21,8 @@ namespace BookShop_MVC
 {
     public class Startup
     {
+        ApplicationDbContext applicationDbContext = new ApplicationDbContext();
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -28,11 +33,11 @@ namespace BookShop_MVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // services.AddDbContext<ApplicationDbContext>(options =>
-            //     options.UseSqlServer(
-            //         Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(applicationDbContext.ConnectString));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)  
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
         }

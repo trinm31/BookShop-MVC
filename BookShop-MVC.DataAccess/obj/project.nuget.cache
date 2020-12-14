@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uEZx1ZwaT5hWPqoNCGKbxOA5jDjl1zxX36tNV5txJpGf0xuNxQB+/Xto0T2VLoZ7BorYYCGQTRYX55ezIeER7Q==",
+  "dgSpecHash": "Fp0EUwWNYVY7Q9b8Pp4cFAtpxYtTaBsAl47ufIZGo8wkJpZngX0KrHQHvRz95sfLOnMwZ1ndaNQca7DsCtJ3QQ==",
   "success": true,
   "projectFilePath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/BookShop-MVC.DataAccess.csproj",
   "expectedPackageFiles": [
+    "/Users/minhtri/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.authentication.cookies/2.2.0/microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
@@ -12,6 +13,7 @@
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/3.1.9/microsoft.aspnetcore.cryptography.keyderivation.3.1.9.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.dataprotection/2.2.0/microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.dataprotection.abstractions/2.2.0/microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/3.1.9/microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.9.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.hosting.abstractions/2.2.0/microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.hosting.server.abstractions/2.2.0/microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.http/2.2.0/microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
@@ -102,7 +104,7 @@
     "/Users/minhtri/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.reflection.emit/4.3.0/system.reflection.emit.4.3.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
-    "/Users/minhtri/.nuget/packages/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.reflection.extensions/4.3.0/system.reflection.extensions.4.3.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",

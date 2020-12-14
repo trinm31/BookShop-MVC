@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BookShop_MVC.Models;
 using BookShop_MVC.Models.ViewModels;
+using BookShop_MVC.DataAccess.Data;
 
 namespace BookShop_MVC.Areas.Customer.Controllers
 {

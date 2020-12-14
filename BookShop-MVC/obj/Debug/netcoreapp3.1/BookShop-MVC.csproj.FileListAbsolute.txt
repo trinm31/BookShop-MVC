@@ -310,7 +310,6 @@
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
@@ -399,5 +398,3 @@
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.Design.dll
-/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.Design.dll
