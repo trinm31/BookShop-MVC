@@ -19,7 +19,6 @@ namespace BookShop_MVC.DataAccess.Repository
             if (objFromDb != null)
             {
                 objFromDb.Name = category.Name;
-                _db.SaveChanges();
             }
         }
     }

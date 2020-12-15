@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 using BookShop_MVC.DataAccess.Data;
 using BookShop_MVC.DataAccess.Repository;
 using BookShop_MVC.DataAccess.Repository.IRepository;

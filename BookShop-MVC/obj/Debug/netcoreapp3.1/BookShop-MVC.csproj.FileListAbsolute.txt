@@ -398,3 +398,8 @@
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Dapper.dll
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Category/Index.cshtml.g.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Category/Upsert.cshtml.g.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_CreateAndBackToListButton.cshtml.g.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_EditAndBackToListButton .cshtml.g.cs
