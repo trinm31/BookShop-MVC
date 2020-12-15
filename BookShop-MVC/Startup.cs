@@ -14,13 +14,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 
 
 namespace BookShop_MVC
 {
     public class Startup
     {
-        ApplicationDbContext applicationDbContext = new ApplicationDbContext();
+        // ApplicationDbContext applicationDbContext = new ApplicationDbContext();
         
         public Startup(IConfiguration configuration)
         {
@@ -32,8 +33,12 @@ namespace BookShop_MVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
+            services
+                .Configure<ConnectionSettings>(Configuration)
+                .AddSingleton(sp => sp.GetRequiredService<IOptions<ConnectionSettings>>().Value);
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(applicationDbContext.ConnectString));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)  
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
