@@ -12,6 +12,10 @@ namespace BookShop_MVC.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
+        public ApplicationDbContext()
+        {
+            
+        }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
@@ -21,12 +25,12 @@ namespace BookShop_MVC.DataAccess.Data
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer(ConnectString);
-            }
+            
+            optionsBuilder.UseSqlServer(ConnectString);
+            
         }
 
         public DbSet<Category> Categories { get; set; }
+        public DbSet<CoverType> CoverTypes { get; set; }
     }
 }

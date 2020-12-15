@@ -21,8 +21,6 @@ namespace BookShop_MVC
 {
     public class Startup
     {
-        // ApplicationDbContext applicationDbContext = new ApplicationDbContext();
-        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -33,10 +31,6 @@ namespace BookShop_MVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
-            services
-                .Configure<ConnectionSettings>(Configuration)
-                .AddSingleton(sp => sp.GetRequiredService<IOptions<ConnectionSettings>>().Value);
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)  

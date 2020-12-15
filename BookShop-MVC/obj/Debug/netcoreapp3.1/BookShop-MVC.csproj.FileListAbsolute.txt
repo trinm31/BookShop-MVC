@@ -403,3 +403,5 @@
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Category/Upsert.cshtml.g.cs
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_CreateAndBackToListButton.cshtml.g.cs
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_EditAndBackToListButton .cshtml.g.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/CoverType/Index.cshtml.g.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/CoverType/Upsert.cshtml.g.cs
