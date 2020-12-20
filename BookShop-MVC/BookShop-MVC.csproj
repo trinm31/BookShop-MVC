@@ -17,4 +17,8 @@
       <ProjectReference Include="..\BookShop-MVC.Utility\BookShop-MVC.Utility.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\images\products" />
+    </ItemGroup>
+
 </Project>

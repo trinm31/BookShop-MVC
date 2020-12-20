@@ -1,3 +1,6 @@
+using System;
+using System.Collections;
+using System.IO;
 using System.Linq;
 using BookShop_MVC.DataAccess.Repository.IRepository;
 using BookShop_MVC.Models;
@@ -53,30 +56,76 @@ namespace BookShop_MVC.Areas.Admin.Controllers
             return View(productVm);
         }
         
-        // [HttpPost]
-        // [ValidateAntiForgeryToken]
-        // public IActionResult Upsert(Product Product)
-        // {
-        //     if (ModelState.IsValid)
-        //     {
-        //         if (Product.Id == 0)
-        //         {
-        //             _unitOfWork.Product.Add(Product);
-        //             
-        //         }
-        //         else
-        //         {
-        //             _unitOfWork.Product.Update(Product);
-        //         }
-        //         _unitOfWork.Save();
-        //         return RedirectToAction(nameof(Index));
-        //     }
-        //     return View(Product);
-        // }
-        
-        
-        
-        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(ProductVM ProductVM)
+        {
+            if (ModelState.IsValid)
+            {
+                string webRootPath = _hostEnvironment.WebRootPath;
+                var files = HttpContext.Request.Form.Files;
+                if (files.Count > 0)
+                {
+                    string fileName = Guid.NewGuid().ToString();
+                    var uploads = Path.Combine(webRootPath, @"images/products");
+                    var extension = Path.GetExtension(files[0].FileName);
+                    if (ProductVM.Product.ImageUrl != null)
+                    {
+                        // to edit path so we need to delete the old path and update new one
+                        var imagePath = Path.Combine(webRootPath, ProductVM.Product.ImageUrl.TrimStart('/'));
+                        if (System.IO.File.Exists(imagePath))
+                        {
+                            System.IO.File.Delete(imagePath);
+                        }
+                    }
+
+                    using (var filesStreams =
+                        new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+                    {
+                        files[0].CopyTo(filesStreams);
+                    }
+
+                    ProductVM.Product.ImageUrl = @"/images/products/" + fileName + extension;
+                }
+                else
+                {
+                    //update without change the images
+                    if (ProductVM.Product.Id != 0)
+                    {
+                        Product objFromDb = _unitOfWork.Product.Get(ProductVM.Product.Id);
+                        ProductVM.Product.ImageUrl = objFromDb.ImageUrl;
+                    }
+                }
+                if (ProductVM.Product.Id == 0)
+                {
+                    _unitOfWork.Product.Add(ProductVM.Product);
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(ProductVM.Product);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                ProductVM.CategoryList = _unitOfWork.Category.GetAll().Select(I => new SelectListItem
+                {
+                    Text = I.Name,
+                    Value = I.Id.ToString()
+                });
+                ProductVM.CoverTypeList = _unitOfWork.CoverType.GetAll().Select(I => new SelectListItem
+                {
+                    Text = I.Name,
+                    Value = I.Id.ToString()
+                });
+                if (ProductVM.Product.Id!=0)
+                {
+                    ProductVM.Product = _unitOfWork.Product.Get(ProductVM.Product.Id);
+                }
+            }
+            return View(ProductVM);
+        }
         
         #region Api Calls
 
@@ -94,7 +143,13 @@ namespace BookShop_MVC.Areas.Admin.Controllers
             {
                 return Json(new {success = false, message = "Error while Deleting"});
             }
-
+            string webRootPath = _hostEnvironment.WebRootPath;
+            // to edit path so we need to delete the old path and update new one
+            var imagePath = Path.Combine(webRootPath, objFromDb.ImageUrl.TrimStart('/'));
+            if (System.IO.File.Exists(imagePath))
+            {
+                System.IO.File.Delete(imagePath);
+            }
             _unitOfWork.Product.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new {success = true, message = "Delete successful"});

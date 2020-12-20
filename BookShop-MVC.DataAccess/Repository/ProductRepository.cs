@@ -32,7 +32,6 @@ namespace BookShop_MVC.DataAccess.Repository
                 objFromDb.CategoryId = product.CategoryId;
                 objFromDb.CoverTypeId = product.CoverTypeId;
                 objFromDb.ListPrice = product.ListPrice;
-
             }
         }
     }
