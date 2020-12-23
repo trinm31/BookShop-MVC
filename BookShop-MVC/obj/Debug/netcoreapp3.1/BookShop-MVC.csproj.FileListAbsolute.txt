@@ -409,3 +409,5 @@
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/Index.cshtml.g.cs
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/Upsert.cshtml.g.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Company/Index.cshtml.g.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Company/Upsert.cshtml.g.cs
