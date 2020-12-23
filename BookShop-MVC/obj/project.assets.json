@@ -311,11 +311,11 @@
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Identity.UI/3.1.9": {
+      "Microsoft.AspNetCore.Identity.UI/3.1.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "3.1.9",
-          "Microsoft.Extensions.Identity.Stores": "3.1.9",
+          "Microsoft.Extensions.FileProviders.Embedded": "3.1.10",
+          "Microsoft.Extensions.Identity.Stores": "3.1.10",
           "Newtonsoft.Json": "12.0.2"
         },
         "compile": {
@@ -1057,10 +1057,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/3.1.9": {
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.9"
+          "Microsoft.Extensions.Primitives": "3.1.10"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
@@ -1069,10 +1069,10 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/3.1.9": {
+      "Microsoft.Extensions.FileProviders.Embedded/3.1.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.9"
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.10"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.dll": {}
@@ -3270,10 +3270,10 @@
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Identity.UI/3.1.9": {
-      "sha512": "eD+zY06BxeXvPr/OSGShBv/DK2E9Yry62pefLNUZDCHaAlLOuSohYau2iDvSP4xqkrtyvobUBcMY2Ny70QljBQ==",
+    "Microsoft.AspNetCore.Identity.UI/3.1.10": {
+      "sha512": "kd5gePvdZkYBmFetTi7IvvdqLQu0wueoY+EOQseo9oj9LduOmfjLhf3VPxyCIKqkjV+0afgoMN1vdTznRe9r0w==",
       "type": "package",
-      "path": "microsoft.aspnetcore.identity.ui/3.1.9",
+      "path": "microsoft.aspnetcore.identity.ui/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3289,7 +3289,7 @@
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V4.dll",
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.dll",
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.xml",
-        "microsoft.aspnetcore.identity.ui.3.1.9.nupkg.sha512",
+        "microsoft.aspnetcore.identity.ui.3.1.10.nupkg.sha512",
         "microsoft.aspnetcore.identity.ui.nuspec",
         "staticwebassets/V3/css/site.css",
         "staticwebassets/V3/js/site.js",
@@ -4195,10 +4195,10 @@
         "microsoft.extensions.dependencymodel.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/3.1.9": {
-      "sha512": "Q4SGwEFZKiZbpzPgdGbQUULxtcH1zXMOwCPKSm6QwVcOCGshf3QLfBh+O/GyFH4B0RfZ16nKyeW1mMONlRyjUw==",
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.10": {
+      "sha512": "Pwu/7fpw1G7WjO1DxPmGfrw6ciruiLHH6k26uNex9Sn/s229uKcwds7GTBUAPbpoh4MI3qo21nqmLBo3N7gVfg==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/3.1.9",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4207,14 +4207,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.3.1.9.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.3.1.10.nupkg.sha512",
         "microsoft.extensions.fileproviders.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Embedded/3.1.9": {
-      "sha512": "DItVt/2DcFM3f/MOyndi5KrP9is915KNSKS7WDUpkZGTCGSebNeMdRZkOLCFsPHQrh6RTFa28wDRrG2mUvNcrw==",
+    "Microsoft.Extensions.FileProviders.Embedded/3.1.10": {
+      "sha512": "6VDkmoJJagm5a3+XZnh+rMLE+ODtHCC3REIELk5rZ3ta4xrkFNY+9rt0ahP90Yr6QtpXFbHK/wx+OUSwCe1Yqg==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.embedded/3.1.9",
+      "path": "microsoft.extensions.fileproviders.embedded/3.1.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4227,7 +4227,7 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.xml",
-        "microsoft.extensions.fileproviders.embedded.3.1.9.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.3.1.10.nupkg.sha512",
         "microsoft.extensions.fileproviders.embedded.nuspec",
         "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
@@ -9331,7 +9331,7 @@
       "BookShop-MVC.Models >= 1.0.0",
       "BookShop-MVC.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.10",
-      "Microsoft.AspNetCore.Identity.UI >= 3.1.9",
+      "Microsoft.AspNetCore.Identity.UI >= 3.1.10",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.10",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.10",
@@ -9340,37 +9340,45 @@
     ]
   },
   "packageFolders": {
-    "/Users/minhtri/.nuget/packages/": {}
+    "C:\\Users\\nmtri\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/BookShop-MVC.csproj",
+      "projectUniqueName": "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC\\BookShop-MVC.csproj",
       "projectName": "BookShop-MVC",
-      "projectPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/BookShop-MVC.csproj",
-      "packagesPath": "/Users/minhtri/.nuget/packages/",
-      "outputPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/",
+      "projectPath": "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC\\BookShop-MVC.csproj",
+      "packagesPath": "C:\\Users\\nmtri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/minhtri/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\nmtri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/BookShop-MVC.DataAccess.csproj": {
-              "projectPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/BookShop-MVC.DataAccess.csproj"
+            "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.DataAccess\\BookShop-MVC.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.DataAccess\\BookShop-MVC.DataAccess.csproj"
             },
-            "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Models/BookShop-MVC.Models.csproj": {
-              "projectPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Models/BookShop-MVC.Models.csproj"
+            "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.Models\\BookShop-MVC.Models.csproj": {
+              "projectPath": "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.Models\\BookShop-MVC.Models.csproj"
             },
-            "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj": {
-              "projectPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj"
+            "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.Utility\\BookShop-MVC.Utility.csproj": {
+              "projectPath": "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.Utility\\BookShop-MVC.Utility.csproj"
             }
           }
         }
@@ -9383,6 +9391,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -9390,7 +9399,7 @@
           },
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
-            "version": "[3.1.9, )"
+            "version": "[3.1.10, )"
           },
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
@@ -9435,7 +9444,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

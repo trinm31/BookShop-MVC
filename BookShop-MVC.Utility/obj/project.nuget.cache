@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mgh3qCT0BZWmbTqrHvkm2NQnYINLLVjB2prwJ0p6TkB7CDjCQcDfGG8ksP0bIM/paKB7cqSKyk/NPUvwsG+BPg==",
+  "dgSpecHash": "bXVaAbf8kS/JkFOIqCp1iG1sJDTiqGyxYR6Nxt+kYG4c/STwWtsRP4WrP9WrYOBiXPO/CWd/5+q+Rwe80vT2YQ==",
   "success": true,
-  "projectFilePath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj",
+  "projectFilePath": "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.Utility\\BookShop-MVC.Utility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

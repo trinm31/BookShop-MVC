@@ -7,3 +7,12 @@
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/obj/Debug/netcoreapp3.1/BookShop-MVC.Utility.csproj.CoreCompileInputs.cache
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/obj/Debug/netcoreapp3.1/BookShop-MVC.Utility.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/obj/Debug/netcoreapp3.1/BookShop-MVC.Utility.pdb
+C:\Users\nmtri\Source\Repos\BookShop-MVC\BookShop-MVC.Utility\bin\Debug\netcoreapp3.1\BookShop-MVC.Utility.deps.json
+C:\Users\nmtri\Source\Repos\BookShop-MVC\BookShop-MVC.Utility\bin\Debug\netcoreapp3.1\BookShop-MVC.Utility.dll
+C:\Users\nmtri\Source\Repos\BookShop-MVC\BookShop-MVC.Utility\bin\Debug\netcoreapp3.1\BookShop-MVC.Utility.pdb
+C:\Users\nmtri\Source\Repos\BookShop-MVC\BookShop-MVC.Utility\obj\Debug\netcoreapp3.1\BookShop-MVC.Utility.csprojAssemblyReference.cache
+C:\Users\nmtri\Source\Repos\BookShop-MVC\BookShop-MVC.Utility\obj\Debug\netcoreapp3.1\BookShop-MVC.Utility.AssemblyInfoInputs.cache
+C:\Users\nmtri\Source\Repos\BookShop-MVC\BookShop-MVC.Utility\obj\Debug\netcoreapp3.1\BookShop-MVC.Utility.AssemblyInfo.cs
+C:\Users\nmtri\Source\Repos\BookShop-MVC\BookShop-MVC.Utility\obj\Debug\netcoreapp3.1\BookShop-MVC.Utility.csproj.CoreCompileInputs.cache
+C:\Users\nmtri\Source\Repos\BookShop-MVC\BookShop-MVC.Utility\obj\Debug\netcoreapp3.1\BookShop-MVC.Utility.dll
+C:\Users\nmtri\Source\Repos\BookShop-MVC\BookShop-MVC.Utility\obj\Debug\netcoreapp3.1\BookShop-MVC.Utility.pdb
