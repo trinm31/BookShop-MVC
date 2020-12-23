@@ -1,36 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.Utility\\BookShop-MVC.Utility.csproj": {}
+    "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.Utility\\BookShop-MVC.Utility.csproj": {
+    "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.Utility\\BookShop-MVC.Utility.csproj",
+        "projectUniqueName": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj",
         "projectName": "BookShop-MVC.Utility",
-        "projectPath": "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.Utility\\BookShop-MVC.Utility.csproj",
-        "packagesPath": "C:\\Users\\nmtri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nmtri\\Source\\Repos\\BookShop-MVC\\BookShop-MVC.Utility\\obj\\",
+        "projectPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj",
+        "packagesPath": "/Users/minhtri/.nuget/packages/",
+        "outputPath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nmtri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/minhtri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,7 +35,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,11 +52,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
         }
       }
     }
