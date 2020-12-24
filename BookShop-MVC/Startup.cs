@@ -42,6 +42,22 @@ namespace BookShop_MVC
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = $"/Identity/Account/Login";
+                options.LogoutPath = $"/Identity/Account/Logout";
+                options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+            });
+            services.AddAuthentication().AddFacebook(options =>
+            {
+                options.AppId = "428203264985460";
+                options.AppSecret = "00a4365a66427b47adf1ac0295340f65"; 
+            });
+            services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = "311711265006-jrh6o0559ts7tgrk7fh5j74a21ukad7q.apps.googleusercontent.com";
+                options.ClientSecret = "Vag4RFDze4hmBs96GmkLIcms"; 
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

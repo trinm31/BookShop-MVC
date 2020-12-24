@@ -5,6 +5,8 @@ using System.Linq;
 using BookShop_MVC.DataAccess.Repository.IRepository;
 using BookShop_MVC.Models;
 using BookShop_MVC.Models.ViewModels;
+using BookShop_MVC.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -12,6 +14,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace BookShop_MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

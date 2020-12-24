@@ -12,7 +12,7 @@ namespace BookShop_MVC.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
-        public ApplicationDbContext()
+        public ApplicationDbContext() 
         {
             
         }

@@ -3,12 +3,15 @@ using System.Linq;
 using BookShop_MVC.DataAccess.Data;
 using BookShop_MVC.DataAccess.Repository.IRepository;
 using BookShop_MVC.Models;
+using BookShop_MVC.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookShop_MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
     public class UserController : Controller
     {
         private readonly ApplicationDbContext _db;

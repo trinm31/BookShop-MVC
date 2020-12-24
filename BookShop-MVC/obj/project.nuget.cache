@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DczjHEy0pUIIByZjU1PCdYcIVun27hV9R5IkaQnawNHhoeYkf8BKqS/Il8Nr0hMIzlSo36Zv1g/M6DUspL7ryw==",
+  "dgSpecHash": "d2AJZjPkEoW7gNVcC/vT7vIvyufYyr9vvP0jr4FtkEcpt6TrjD+5YU0agzQWVU16dnxl+J/ZByHVWHI5zIuOgA==",
   "success": true,
   "projectFilePath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/BookShop-MVC.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.authentication.cookies/2.2.0/microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.authentication.facebook/3.1.10/microsoft.aspnetcore.authentication.facebook.3.1.10.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.authentication.google/3.1.10/microsoft.aspnetcore.authentication.google.3.1.10.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.authorization/2.2.0/microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.authorization.policy/2.2.0/microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.aspnetcore.cryptography.internal/3.1.10/microsoft.aspnetcore.cryptography.internal.3.1.10.nupkg.sha512",
