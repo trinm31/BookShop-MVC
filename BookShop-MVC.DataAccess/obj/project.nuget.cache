@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pfOSdaI8oFhmnkeYuag1Qr0rroiqM1LaLCuRIpHfssS/ZvnuHDKKMTO3ssWh2LGBFN4Sj19lsH3bU90s33crUQ==",
+  "dgSpecHash": "aqBlGTbrXKN04B9Sv1J7dIxDON7pIvB/rFUI8UzINzfD06SLFmAjG10Ts3yTKJogTmBgZCgEjbXYZQrVCMjrjw==",
   "success": true,
   "projectFilePath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.DataAccess/BookShop-MVC.DataAccess.csproj",
   "expectedPackageFiles": [
