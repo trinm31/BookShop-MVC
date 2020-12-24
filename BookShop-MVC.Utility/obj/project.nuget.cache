@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "avf+ey7PT08Gs1hOL92tbs5/R81F/nmtWZvVzY/X1DBK7T27cwTGPK+Ur35T5qNgGPf7KVoGIGhEhl7DAqwUoQ==",
+  "dgSpecHash": "QLgQ5jR0C0JVsPkZrLdrFZ73vWUUPgfr3yIKUtJYUscwNAtvWKgOHlT1U1aM46KHzeSjuMvZGm7Utbd0XEWusg==",
   "success": true,
   "projectFilePath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/BookShop-MVC.Utility.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,9 @@
     "/Users/minhtri/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.10/microsoft.extensions.logging.abstractions.3.1.10.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.extensions.options/3.1.10/microsoft.extensions.options.3.1.10.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/microsoft.extensions.primitives/3.1.10/microsoft.extensions.primitives.3.1.10.nupkg.sha512",
-    "/Users/minhtri/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512"
+    "/Users/minhtri/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/sendgrid/9.22.0/sendgrid.9.22.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/starkbank-ecdsa/1.2.0/starkbank-ecdsa.1.2.0.nupkg.sha512"
   ],
   "logs": []
 }

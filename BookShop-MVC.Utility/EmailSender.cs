@@ -1,13 +1,31 @@
+using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.Extensions.Options;
+using SendGrid;
+using SendGrid.Helpers.Mail;
 
 namespace BookShop_MVC.Utility
 {
     public class EmailSender : IEmailSender
     {
+        private readonly EmailOptions emailOptions;
+
+        public EmailSender(IOptions<EmailOptions> options)
+        {
+            emailOptions = options.Value;
+        }
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            throw new System.NotImplementedException();
+            return Execute(emailOptions.SendGridKey, subject, htmlMessage, email);
+        }
+        private async Task<Response> Execute(string sendGridKey,string subject, string message, string email)
+        {
+            var client = new SendGridClient(sendGridKey);
+            var from = new EmailAddress("test@example.com", "BookShop");
+            var to = new EmailAddress(email, "End User");
+            var msg = MailHelper.CreateSingleEmail(from, to, subject, message,"");
+            return await client.SendEmailAsync(msg);
         }
     }
 }

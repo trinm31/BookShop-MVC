@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d2AJZjPkEoW7gNVcC/vT7vIvyufYyr9vvP0jr4FtkEcpt6TrjD+5YU0agzQWVU16dnxl+J/ZByHVWHI5zIuOgA==",
+  "dgSpecHash": "ktHNIPcTt59/ThWv4p8jrKh/uJ0fSCZBzuwrYP3c32wRmq6D5OjhJuHIOgyOJ9T8jB8q5InCf+oIsMfVKBY+dQ==",
   "success": true,
   "projectFilePath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/BookShop-MVC.csproj",
   "expectedPackageFiles": [
@@ -115,6 +115,8 @@
     "/Users/minhtri/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/sendgrid/9.22.0/sendgrid.9.22.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/starkbank-ecdsa/1.2.0/starkbank-ecdsa.1.2.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
