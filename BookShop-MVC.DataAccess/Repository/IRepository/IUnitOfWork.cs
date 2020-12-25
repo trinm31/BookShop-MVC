@@ -10,6 +10,10 @@ namespace BookShop_MVC.DataAccess.Repository.IRepository
         ISP_Call SP_Call { get; }
         ICompanyRepository Company { get; }
         IApplicationUserRepository ApplcationUser { get; }
+        IOrderDetailsRepository OrderDetails { get; }
+        IOrderHeaderRepository OrderHeader{ get; }
+        IShoppingCartRepository ShoppingCart { get; }
+        
         void Save();
     }
 }
