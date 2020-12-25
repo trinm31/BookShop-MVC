@@ -146,6 +146,7 @@ namespace BookShop_MVC.Areas.Identity.Pages.Account
                     if (user.Role == null)
                     {
                         await _userManager.AddToRoleAsync(user, SD.Role_User_Indi);
+                        //await _userManager.AddToRoleAsync(user, SD.Role_Admin);
                     }
                     else
                     {

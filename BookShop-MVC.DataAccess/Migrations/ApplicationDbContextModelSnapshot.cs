@@ -97,9 +97,6 @@ namespace BookShopMVC.DataAccess.Migrations
                     b.Property<int>("Count")
                         .HasColumnType("int");
 
-                    b.Property<int?>("OrderID")
-                        .HasColumnType("int");
-
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
@@ -111,7 +108,7 @@ namespace BookShopMVC.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OrderID");
+                    b.HasIndex("OrderId");
 
                     b.HasIndex("ProductId");
 
@@ -494,7 +491,9 @@ namespace BookShopMVC.DataAccess.Migrations
                 {
                     b.HasOne("BookShop_MVC.Models.OrderHeader", "OrderHeader")
                         .WithMany()
-                        .HasForeignKey("OrderID");
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("BookShop_MVC.Models.Product", "Product")
                         .WithMany()

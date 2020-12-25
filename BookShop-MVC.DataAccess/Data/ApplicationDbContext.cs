@@ -24,7 +24,7 @@ namespace BookShop_MVC.DataAccess.Data
         {
             _connection = connectOptions.Value;
         }
-        public string ConnectString  =  @"Data Source=localhost,1433;Initial Catalog=BookShopMVC;User ID=SA;Password=Password789";
+        public string ConnectString  =  @"Data Source=localhost,1433;Initial Catalog=BookShop;User ID=SA;Password=Password789";
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlServer(_connection.DefaultConnection);

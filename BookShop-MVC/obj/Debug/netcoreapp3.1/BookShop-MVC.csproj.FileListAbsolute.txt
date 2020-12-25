@@ -954,3 +954,4 @@ C:/Users/nmtri/Source/Repos/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Bo
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/SendGrid.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/StarkbankEcdsa.dll
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Customer/Views/Home/Details.cshtml.g.cs

@@ -2,26 +2,25 @@
   <MonoDevelop.Ide.ItemProperties.BookShop-MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="BookShop-MVC/appsettings.json">
     <Files>
-      <File FileName="BookShop-MVC/appsettings.json" Line="11" Column="5" />
-      <File FileName="BookShop-MVC.DataAccess/Data/ApplicationDbContext.cs" Line="1" Column="1" />
-      <File FileName="BookShop-MVC.Models/ViewModels/ErrorViewModel.cs" Line="1" Column="1" />
-      <File FileName="BookShop-MVC.Utility/SD.cs" Line="1" Column="1" />
-      <File FileName="BookShop-MVC/BookShop-MVC.csproj" Line="25" Column="44" />
+      <File FileName="BookShop-MVC/appsettings.json" Line="15" Column="2" />
+      <File FileName="BookShop-MVC.DataAccess/Data/ApplicationDbContext.cs" />
+      <File FileName="BookShop-MVC.Models/ViewModels/ErrorViewModel.cs" />
+      <File FileName="BookShop-MVC.Utility/SD.cs" />
+      <File FileName="BookShop-MVC/BookShop-MVC.csproj" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BookShop-MVC" expanded="True">
             <Node name="BookShop-MVC" expanded="True">
-              <Node name="appsettings.json" expanded="True" selected="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
             <Node name="BookShop-MVC.DataAccess" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
             </Node>
-            <Node name="BookShop-MVC.Models" expanded="True">
-              <Node name="ViewModels" expanded="True" />
-            </Node>
+            <Node name="BookShop-MVC.Models" expanded="True" />
             <Node name="BookShop-MVC.Utility" expanded="True" />
           </Node>
         </State>

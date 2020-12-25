@@ -11,7 +11,7 @@ namespace BookShop_MVC.DataAccess.Repository.IRepository
         ICompanyRepository Company { get; }
         IApplicationUserRepository ApplcationUser { get; }
         IOrderDetailsRepository OrderDetails { get; }
-        IOrderHeaderRepository OrderHeader{ get; }
+        IOrderHeaderRepository OrderHeader { get; }
         IShoppingCartRepository ShoppingCart { get; }
         
         void Save();

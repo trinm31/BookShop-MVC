@@ -60,6 +60,12 @@ namespace BookShop_MVC
                 options.ClientId = "311711265006-jrh6o0559ts7tgrk7fh5j74a21ukad7q.apps.googleusercontent.com";
                 options.ClientSecret = "Vag4RFDze4hmBs96GmkLIcms"; 
             });
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -81,7 +87,7 @@ namespace BookShop_MVC
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession(); 
             app.UseAuthentication();
             app.UseAuthorization();
 

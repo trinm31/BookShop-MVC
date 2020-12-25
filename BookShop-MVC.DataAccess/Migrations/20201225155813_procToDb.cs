@@ -2,7 +2,7 @@
 
 namespace BookShopMVC.DataAccess.Migrations
 {
-    public partial class AddProcToDb : Migration
+    public partial class procToDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -48,11 +48,11 @@ namespace BookShopMVC.DataAccess.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.Sql(@"DROP PROCEDURE usp_GetCoverTypes");
-            migrationBuilder.Sql(@"DROP PROCEDURE usp_GetCoverType");
-            migrationBuilder.Sql(@"DROP PROCEDURE usp_UpdateCoverType");
-            migrationBuilder.Sql(@"DROP PROCEDURE usp_DeleteCoverType");
-            migrationBuilder.Sql(@"DROP PROCEDURE usp_CreateCoverType");
+         migrationBuilder.Sql(@"DROP PROCEDURE usp_GetCoverTypes");
+         migrationBuilder.Sql(@"DROP PROCEDURE usp_GetCoverType");
+         migrationBuilder.Sql(@"DROP PROCEDURE usp_UpdateCoverType");
+         migrationBuilder.Sql(@"DROP PROCEDURE usp_DeleteCoverType");
+         migrationBuilder.Sql(@"DROP PROCEDURE usp_CreateCoverType");
         }
     }
 }
