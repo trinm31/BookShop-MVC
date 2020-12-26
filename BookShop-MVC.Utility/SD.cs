@@ -16,6 +16,18 @@ namespace BookShop_MVC.Utility
         public const string Role_Employee = "Employee";
         
         public const string ssShoppingCart = "Shopping Cart Session";
+        
+        public const string StatusPending = "Pending";
+        public const string StatusApproved = "Approved";
+        public const string StatusInProcess = "Processing";
+        public const string StatusShipped = "Shipped";
+        public const string StatusCancelled = "Cancelled";
+        public const string StatusRefunded = "Refunded";
+
+        public const string PaymentStatusPending = "Pending";
+        public const string PaymentStatusApproved = "Approved";
+        public const string PaymentStatusDelayedPayment = "ApprovedForDelayedPayment";
+        public const string PaymentStatusRejected = "Rejected";
 
         public static Double GetPriceBaseOnQuanity(Double quantity, Double price, Double price50, Double price100)
         {

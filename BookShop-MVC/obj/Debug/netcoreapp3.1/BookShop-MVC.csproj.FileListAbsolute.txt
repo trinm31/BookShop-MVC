@@ -956,3 +956,6 @@ C:/Users/nmtri/Source/Repos/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Bo
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/StarkbankEcdsa.dll
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Customer/Views/Home/Details.cshtml.g.cs
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Customer/Views/Cart/Index.cshtml.g.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/bin/Debug/netcoreapp3.1/Stripe.net.dll
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Customer/Views/Cart/Summary.cshtml.g.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Customer/Views/Cart/OrderConfirmation.cshtml.g.cs

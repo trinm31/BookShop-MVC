@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ktHNIPcTt59/ThWv4p8jrKh/uJ0fSCZBzuwrYP3c32wRmq6D5OjhJuHIOgyOJ9T8jB8q5InCf+oIsMfVKBY+dQ==",
+  "dgSpecHash": "wtvBHihHoyAtWTwlAF3ASawfU7YCYwayXRlbCkHGLCkGikpvc9Df8ul4i7doKwhKXWAYuQJVhFnb8OV3vkMR3g==",
   "success": true,
   "projectFilePath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/BookShop-MVC.csproj",
   "expectedPackageFiles": [
@@ -117,6 +117,7 @@
     "/Users/minhtri/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/sendgrid/9.22.0/sendgrid.9.22.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/starkbank-ecdsa/1.2.0/starkbank-ecdsa.1.2.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/stripe.net/39.31.0/stripe.net.39.31.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",

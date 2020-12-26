@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Text;
-using BookShop_MVC.Models;
+﻿using BookShop_MVC.Models;
 using BookShop_MVC.Utility;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 
 
@@ -14,7 +9,7 @@ namespace BookShop_MVC.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
-        private readonly ConnectionSetting _connection;
+        private static ConnectionSetting _connection;
         public ApplicationDbContext()
         {
             
@@ -25,6 +20,7 @@ namespace BookShop_MVC.DataAccess.Data
             _connection = connectOptions.Value;
         }
         public string ConnectString  =  @"Data Source=localhost,1433;Initial Catalog=BookShop;User ID=SA;Password=Password789";
+        //public string ConnectString = _connection.DefaultConnection;
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlServer(_connection.DefaultConnection);
