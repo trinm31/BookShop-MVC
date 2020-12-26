@@ -18,7 +18,7 @@ namespace BookShop_MVC.DataAccess.Repository
             OrderDetails = new OrderDetailsRepository(_db);
             OrderHeader = new OrderHeaderRepository(_db);
             ShoppingCart = new ShoppingCartRepository(_db);
-            ApplcationUser = new ApplicationUserRepository(_db);
+            ApplicationUser = new ApplicationUserRepository(_db);
             SP_Call = new SP_Call(_db);
         }
 
@@ -32,7 +32,7 @@ namespace BookShop_MVC.DataAccess.Repository
         public IProductRepository Product { get; private set; }
         public ISP_Call SP_Call { get; private set; }
         public ICompanyRepository Company { get; private set; }
-        public IApplicationUserRepository ApplcationUser { get; private set; }
+        public IApplicationUserRepository ApplicationUser { get; private set; }
         public IOrderDetailsRepository OrderDetails { get; }
         public IOrderHeaderRepository OrderHeader { get; }
         public IShoppingCartRepository ShoppingCart { get; }
