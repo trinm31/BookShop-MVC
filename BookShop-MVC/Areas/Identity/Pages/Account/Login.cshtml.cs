@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.IO;
 using System.Linq;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ using BookShop_MVC.DataAccess.Repository.IRepository;
 using BookShop_MVC.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -25,16 +27,19 @@ namespace BookShop_MVC.Areas.Identity.Pages.Account
         private readonly ILogger<LoginModel> _logger;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IEmailSender _emailSender;
+        private readonly IWebHostEnvironment _hostEnvironment;
 
         public LoginModel(SignInManager<IdentityUser> signInManager, 
             ILogger<LoginModel> logger,
-            UserManager<IdentityUser> userManager, IUnitOfWork unitOfWork, IEmailSender emailSender)
+            UserManager<IdentityUser> userManager, IUnitOfWork unitOfWork, IEmailSender emailSender,
+            IWebHostEnvironment hostEnvironment)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
             _unitOfWork = unitOfWork;
             _emailSender = emailSender;
+            _hostEnvironment = hostEnvironment;
         }
 
         [BindProperty]
@@ -136,12 +141,37 @@ namespace BookShop_MVC.Areas.Identity.Pages.Account
                 pageHandler: null,
                 values: new { userId = userId, code = code },
                 protocol: Request.Scheme);
-            await _emailSender.SendEmailAsync(
-                Input.Email,
-                "Confirm your email",
-                $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+            var PathToFile = _hostEnvironment.WebRootPath + Path.DirectorySeparatorChar.ToString()
+                                                          + "Templates" + Path.DirectorySeparatorChar.ToString() + "EmailTemplates"
+                                                          + Path.DirectorySeparatorChar.ToString() + "Confirm_Account_Registration.html";
 
-            ModelState.AddModelError(string.Empty, "Verification email sent. Please check your email.");
+            var subject = "Confirm Account Registration";
+            string HtmlBody = "";
+            using (StreamReader streamReader = System.IO.File.OpenText(PathToFile))
+            {
+                HtmlBody = streamReader.ReadToEnd();
+            }
+                    
+            //{0} : Subject  
+            //{1} : DateTime  
+            //{2} : Name  
+            //{3} : Email  
+            //{4} : Message  
+            //{5} : callbackURL  
+
+            string Message = $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.";
+
+            string messageBody = string.Format(HtmlBody,
+                subject,
+                String.Format("{0:dddd, d MMMM yyyy}", DateTime.Now),
+                user.UserName,
+                user.Email,
+                Message,
+                callbackUrl
+            );
+
+                    
+            await _emailSender.SendEmailAsync(Input.Email, "Confirm your email", messageBody);
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             return Page();
         }
