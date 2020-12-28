@@ -961,3 +961,4 @@ C:/Users/nmtri/Source/Repos/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Bo
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Customer/Views/Cart/OrderConfirmation.cshtml.g.cs
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Order/Index.cshtml.g.cs
 /Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Order/Details.cshtml.g.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml.g.cs

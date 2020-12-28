@@ -141,37 +141,12 @@ namespace BookShop_MVC.Areas.Identity.Pages.Account
                 pageHandler: null,
                 values: new { userId = userId, code = code },
                 protocol: Request.Scheme);
-            var PathToFile = _hostEnvironment.WebRootPath + Path.DirectorySeparatorChar.ToString()
-                                                          + "Templates" + Path.DirectorySeparatorChar.ToString() + "EmailTemplates"
-                                                          + Path.DirectorySeparatorChar.ToString() + "Confirm_Account_Registration.html";
+            await _emailSender.SendEmailAsync(
+                Input.Email,
+                "Confirm your email",
+                $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
-            var subject = "Confirm Account Registration";
-            string HtmlBody = "";
-            using (StreamReader streamReader = System.IO.File.OpenText(PathToFile))
-            {
-                HtmlBody = streamReader.ReadToEnd();
-            }
-                    
-            //{0} : Subject  
-            //{1} : DateTime  
-            //{2} : Name  
-            //{3} : Email  
-            //{4} : Message  
-            //{5} : callbackURL  
-
-            string Message = $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.";
-
-            string messageBody = string.Format(HtmlBody,
-                subject,
-                String.Format("{0:dddd, d MMMM yyyy}", DateTime.Now),
-                user.UserName,
-                user.Email,
-                Message,
-                callbackUrl
-            );
-
-                    
-            await _emailSender.SendEmailAsync(Input.Email, "Confirm your email", messageBody);
+            ModelState.AddModelError(string.Empty, "Verification email sent. Please check your email.");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             return Page();
         }
