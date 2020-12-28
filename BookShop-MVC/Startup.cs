@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BookShop_MVC.DataAccess.Data;
+using BookShop_MVC.DataAccess.Initializer;
 using BookShop_MVC.DataAccess.Repository;
 using BookShop_MVC.DataAccess.Repository.IRepository;
 using BookShop_MVC.Utility;
@@ -46,6 +47,7 @@ namespace BookShop_MVC
             services.Configure<TwilioSettings>(Configuration.GetSection("Twilio"));
             services.Configure<ConnectionSetting>(Configuration.GetSection(ConnectionSetting.ConnectionStrings));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IDbInitializer,DbInitializer>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
             services.ConfigureApplicationCookie(options =>
@@ -73,7 +75,7 @@ namespace BookShop_MVC
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDbInitializer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -95,7 +97,7 @@ namespace BookShop_MVC
             app.UseSession(); 
             app.UseAuthentication();
             app.UseAuthorization();
-
+            dbInitializer.Initialize();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
