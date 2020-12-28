@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wtvBHihHoyAtWTwlAF3ASawfU7YCYwayXRlbCkHGLCkGikpvc9Df8ul4i7doKwhKXWAYuQJVhFnb8OV3vkMR3g==",
+  "dgSpecHash": "XOFIK4kOB4Z9ZKBg1QueNm+7UaDP6m8W7dG+RUmZ4AGjT9D/3wweYxWRNUO75df+8Y53Yo4AcRL1VivaTgJ94Q==",
   "success": true,
   "projectFilePath": "/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/BookShop-MVC.csproj",
   "expectedPackageFiles": [
@@ -192,7 +192,8 @@
     "/Users/minhtri/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/minhtri/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/minhtri/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "/Users/minhtri/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "/Users/minhtri/.nuget/packages/twilio/5.52.1/twilio.5.52.1.nupkg.sha512"
   ],
   "logs": []
 }

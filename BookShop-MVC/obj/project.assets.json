@@ -1871,7 +1871,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Collections.Specialized.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.Specialized.dll": {}
@@ -2957,6 +2957,21 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Twilio/5.52.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.3.0",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Collections.Specialized": "4.3.0",
+          "System.IdentityModel.Tokens.Jwt": "5.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Twilio.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Twilio.dll": {}
         }
       },
       "BookShop-MVC.DataAccess/1.0.0": {
@@ -9467,6 +9482,25 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Twilio/5.52.1": {
+      "sha512": "QxQ6RIoEksyLiMXCteyW1tyDSoEDRNLb3SxpBaOuLfP7NxxObM2gou/rHb9S/jVHC/xX9BiZnm+RFT5f4aJSDA==",
+      "type": "package",
+      "path": "twilio/5.52.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Twilio.dll",
+        "lib/net35/Twilio.xml",
+        "lib/net451/Twilio.dll",
+        "lib/net451/Twilio.xml",
+        "lib/netstandard1.4/Twilio.dll",
+        "lib/netstandard1.4/Twilio.xml",
+        "lib/netstandard2.0/Twilio.dll",
+        "lib/netstandard2.0/Twilio.xml",
+        "twilio.5.52.1.nupkg.sha512",
+        "twilio.nuspec"
+      ]
+    },
     "BookShop-MVC.DataAccess/1.0.0": {
       "type": "project",
       "path": "../BookShop-MVC.DataAccess/BookShop-MVC.DataAccess.csproj",
@@ -9497,7 +9531,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.10",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
-      "Stripe.net >= 39.31.0"
+      "Stripe.net >= 39.31.0",
+      "Twilio >= 5.52.1"
     ]
   },
   "packageFolders": {
@@ -9588,6 +9623,10 @@
           "Stripe.net": {
             "target": "Package",
             "version": "[39.31.0, )"
+          },
+          "Twilio": {
+            "target": "Package",
+            "version": "[5.52.1, )"
           }
         },
         "imports": [

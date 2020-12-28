@@ -37,6 +37,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "3.1.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
           "Stripe.net": "39.31.0",
+          "Twilio": "5.52.1",
           "Microsoft.AspNetCore.Antiforgery.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies.Reference": "3.1.0.0",
@@ -2476,6 +2477,23 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "Twilio/5.52.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.5.0",
+          "Newtonsoft.Json": "12.0.2",
+          "System.Collections.Specialized": "4.3.0",
+          "System.IdentityModel.Tokens.Jwt": "5.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Twilio.dll": {
+            "assemblyVersion": "5.52.1.0",
+            "fileVersion": "5.52.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Twilio.dll": {}
         }
       },
       "BookShop-MVC.DataAccess/1.0.0": {
@@ -5424,6 +5442,13 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Twilio/5.52.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QxQ6RIoEksyLiMXCteyW1tyDSoEDRNLb3SxpBaOuLfP7NxxObM2gou/rHb9S/jVHC/xX9BiZnm+RFT5f4aJSDA==",
+      "path": "twilio/5.52.1",
+      "hashPath": "twilio.5.52.1.nupkg.sha512"
     },
     "BookShop-MVC.DataAccess/1.0.0": {
       "type": "project",
