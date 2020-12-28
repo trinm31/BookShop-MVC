@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using BookShop_MVC.DataAccess.Repository.IRepository;
 using BookShop_MVC.Models;
 using BookShop_MVC.Utility;
@@ -17,11 +18,11 @@ namespace BookShop_MVC.Areas.Admin.Controllers
             _unitOfWork = unitOfWork;
         }
         // GET
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             return View();
         }
-        public IActionResult Upsert(int? id)
+        public async Task<IActionResult> Upsert(int? id)
         {
             Category category = new Category();
             if (id == null)
@@ -29,7 +30,7 @@ namespace BookShop_MVC.Areas.Admin.Controllers
                 return View(category);
             }
 
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            category = await _unitOfWork.Category.GetAsync(id.GetValueOrDefault());
             if (category == null)
             {
                 return NotFound();
@@ -38,18 +39,18 @@ namespace BookShop_MVC.Areas.Admin.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(Category category)
+        public async Task<IActionResult> Upsert(Category category)
         {
             if (ModelState.IsValid)
             {
                 if (category.Id == 0)
                 {
-                    _unitOfWork.Category.Add(category);
+                    await _unitOfWork.Category.AddAsync(category);
                     
                 }
                 else
                 {
-                    _unitOfWork.Category.Update(category);
+                   await _unitOfWork.Category.Update(category);
                 }
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
@@ -59,21 +60,21 @@ namespace BookShop_MVC.Areas.Admin.Controllers
         #region Api Calls
 
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var allObj = _unitOfWork.Category.GetAll();
+            var allObj = await _unitOfWork.Category.GetAllAsync();
             return Json(new {data = allObj});
         }
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var objFromDb = _unitOfWork.Category.Get(id);
+            var objFromDb = await _unitOfWork.Category.GetAsync(id);
             if (objFromDb == null)
             {
                 return Json(new {success = false, message = "Error while Deleting"});
             }
 
-            _unitOfWork.Category.Remove(objFromDb);
+            await _unitOfWork.Category.RemoveAsync(objFromDb);
             _unitOfWork.Save();
             return Json(new {success = true, message = "Delete successful"});
         }

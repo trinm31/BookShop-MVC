@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using BookShop_MVC.DataAccess.Repository.IRepository;
 using BookShop_MVC.Models;
 using BookShop_MVC.Models.ViewModels;
@@ -30,12 +32,13 @@ namespace BookShop_MVC.Areas.Admin.Controllers
         {
             return View();
         }
-        public IActionResult Upsert(int? id)
+        public async Task<IActionResult> Upsert(int? id)
         {
+            IEnumerable<Category> CateLists = await _unitOfWork.Category.GetAllAsync();
             ProductVM productVm = new ProductVM()
             {
                 Product = new Product(),
-                CategoryList = _unitOfWork.Category.GetAll().Select(I => new SelectListItem
+                CategoryList = CateLists.Select(I => new SelectListItem
                 {
                     Text = I.Name,
                     Value = I.Id.ToString()
@@ -61,7 +64,7 @@ namespace BookShop_MVC.Areas.Admin.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(ProductVM ProductVM)
+        public async Task <IActionResult> Upsert(ProductVM ProductVM)
         {
             if (ModelState.IsValid)
             {
@@ -112,7 +115,8 @@ namespace BookShop_MVC.Areas.Admin.Controllers
             }
             else
             {
-                ProductVM.CategoryList = _unitOfWork.Category.GetAll().Select(I => new SelectListItem
+                IEnumerable<Category> CateLits = await _unitOfWork.Category.GetAllAsync();
+                ProductVM.CategoryList = CateLits.Select(I => new SelectListItem
                 {
                     Text = I.Name,
                     Value = I.Id.ToString()

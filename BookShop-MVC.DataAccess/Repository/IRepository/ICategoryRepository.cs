@@ -1,9 +1,10 @@
+using System.Threading.Tasks;
 using BookShop_MVC.Models;
 
 namespace BookShop_MVC.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepository : IRepository<Category>
+    public interface ICategoryRepository : IRepositoryAsync<Category>
     {
-        void Update(Category category);
+        Task Update(Category category);
     }
 }
