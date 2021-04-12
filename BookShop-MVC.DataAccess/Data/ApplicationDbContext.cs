@@ -17,14 +17,14 @@ namespace BookShop_MVC.DataAccess.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options , IOptions<ConnectionSetting> connectOptions)
             : base(options)
         {
-            _connection = connectOptions.Value;
+            //_connection = connectOptions.Value;
         }
-        public string ConnectString  =  @"Data Source=localhost,1433;Initial Catalog=BookShop_New;User ID=SA;Password=Password789";
+        //public string ConnectString  =  @"Data Source=localhost,1433;Initial Catalog=BookShop_New;User ID=SA;Password=Password789";
         //public string ConnectString = _connection.DefaultConnection;
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlServer(_connection.DefaultConnection);
-            optionsBuilder.UseSqlServer(ConnectString);
+            //optionsBuilder.UseSqlServer(ConnectString);
         }
 
         public DbSet<Category> Categories { get; set; }

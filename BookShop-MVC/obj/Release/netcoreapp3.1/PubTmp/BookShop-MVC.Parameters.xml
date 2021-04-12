@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="BookShop-MVC" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC/obj/Release/netcoreapp3\.1/PubTmp/Out/$" />
+  </parameter>
+</parameters>

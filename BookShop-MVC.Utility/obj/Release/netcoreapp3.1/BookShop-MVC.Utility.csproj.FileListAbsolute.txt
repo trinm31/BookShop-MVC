@@ -1,0 +1,9 @@
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/bin/Release/netcoreapp3.1/BookShop-MVC.Utility.deps.json
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/bin/Release/netcoreapp3.1/BookShop-MVC.Utility.dll
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/bin/Release/netcoreapp3.1/BookShop-MVC.Utility.pdb
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/obj/Release/netcoreapp3.1/BookShop-MVC.Utility.csprojAssemblyReference.cache
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/obj/Release/netcoreapp3.1/BookShop-MVC.Utility.AssemblyInfoInputs.cache
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/obj/Release/netcoreapp3.1/BookShop-MVC.Utility.AssemblyInfo.cs
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/obj/Release/netcoreapp3.1/BookShop-MVC.Utility.csproj.CoreCompileInputs.cache
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/obj/Release/netcoreapp3.1/BookShop-MVC.Utility.dll
+/Users/minhtri/Documents/Dev/RiderProjects/BookShop-MVC/BookShop-MVC.Utility/obj/Release/netcoreapp3.1/BookShop-MVC.Utility.pdb
